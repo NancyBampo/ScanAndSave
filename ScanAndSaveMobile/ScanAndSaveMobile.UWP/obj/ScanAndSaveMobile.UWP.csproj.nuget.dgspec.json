@@ -1,0 +1,190 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nancy\\codecamp\\ScanAndSave\\ScanAndSaveMobile\\ScanAndSaveMobile.UWP\\ScanAndSaveMobile.UWP.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nancy\\codecamp\\ScanAndSave\\ScanAndSaveMobile\\ScanAndSaveMobile.UWP\\ScanAndSaveMobile.UWP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nancy\\codecamp\\ScanAndSave\\ScanAndSaveMobile\\ScanAndSaveMobile.UWP\\ScanAndSaveMobile.UWP.csproj",
+        "projectName": "ScanAndSaveMobile.UWP",
+        "projectPath": "C:\\Users\\nancy\\codecamp\\ScanAndSave\\ScanAndSaveMobile\\ScanAndSaveMobile.UWP\\ScanAndSaveMobile.UWP.csproj",
+        "packagesPath": "C:\\Users\\nancy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nancy\\codecamp\\ScanAndSave\\ScanAndSaveMobile\\ScanAndSaveMobile.UWP\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nancy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.16299"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.16299": {
+            "projectReferences": {
+              "C:\\Users\\nancy\\codecamp\\ScanAndSave\\ScanAndSaveMobile\\ScanAndSaveMobile\\ScanAndSaveMobile.csproj": {
+                "projectPath": "C:\\Users\\nancy\\codecamp\\ScanAndSave\\ScanAndSaveMobile\\ScanAndSaveMobile\\ScanAndSaveMobile.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.16299": {
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Xam.Plugins.Settings": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.4.0.991640, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\nancy\\codecamp\\ScanAndSave\\ScanAndSaveMobile\\ScanAndSaveMobile\\ScanAndSaveMobile.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nancy\\codecamp\\ScanAndSave\\ScanAndSaveMobile\\ScanAndSaveMobile\\ScanAndSaveMobile.csproj",
+        "projectName": "ScanAndSaveMobile",
+        "projectPath": "C:\\Users\\nancy\\codecamp\\ScanAndSave\\ScanAndSaveMobile\\ScanAndSaveMobile\\ScanAndSaveMobile.csproj",
+        "packagesPath": "C:\\Users\\nancy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nancy\\codecamp\\ScanAndSave\\ScanAndSaveMobile\\ScanAndSaveMobile\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nancy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Xam.Plugins.Settings": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.4.0.991640, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

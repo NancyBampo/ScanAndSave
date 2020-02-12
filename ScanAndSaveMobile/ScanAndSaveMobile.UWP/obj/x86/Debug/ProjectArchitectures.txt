@@ -1,0 +1,1 @@
+C:\Users\nancy\codecamp\ScanAndSave\ScanAndSaveMobile\ScanAndSaveMobile.UWP\ScanAndSaveMobile.UWP.csproj;x86

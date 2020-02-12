@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModel="clr-namespace:ScanAndSaveMobile.ViewModels"
+             mc:Ignorable="d"
+             x:Class="ScanAndSaveMobile.Views.CartPage"
+             Title="My Lists">
+    <ContentPage.BindingContext>
+        <viewModel:CartViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Logout"
+                     Command="{Binding LogoutCommand}"
+                     Clicked ="Logout_Clicked"
+                     Priority="1"/>
+        <ToolbarItem Text="New List"
+                Clicked="NewGroceryCart_OnClicked"/>
+        <!--<ToolbarItem Text="Begin Scan"
+                     Clicked="Scan_Clicked"/>-->
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Padding="20">
+
+        <!-- <Entry Text="{Binding AccessToken}"/>-->
+
+        <Button Command="{Binding GetGroceryCartCommand}"
+                Text="My Grocery Carts"
+                TextColor="White"
+                FontSize="30"
+                BackgroundColor="DodgerBlue"/>
+        <!--<Button Text="Add New Grocery List
+                Clicked="NewGroceryCart_OnClicked"/>-->
+        <ListView ItemsSource="{Binding GroceryCarts}"
+                  HasUnevenRows="True"
+                  ItemTapped="ListView_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="0,10">
+                            <Label Text="{Binding Name}"
+                                   FontSize="24"
+                                   TextColor="RoyalBlue" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
